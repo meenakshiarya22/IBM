@@ -1,0 +1,1644 @@
+{
+  "intents": [
+    {
+      "intent": "Admission_queries",
+      "examples": [
+        {
+          "text": "Admissions"
+        },
+        {
+          "text": "B.Tech degree courses"
+        },
+        {
+          "text": "courses offered"
+        },
+        {
+          "text": "I am seeking admission"
+        },
+        {
+          "text": "I am seeking admission for B.Tech course"
+        },
+        {
+          "text": "I wish to join for B.tech"
+        },
+        {
+          "text": "list of courses available"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "contact_us",
+      "examples": [
+        {
+          "text": "contact email or phone no."
+        },
+        {
+          "text": "contact info"
+        },
+        {
+          "text": "contact us"
+        },
+        {
+          "text": "further contact information"
+        },
+        {
+          "text": "How can i contact you?"
+        }
+      ]
+    },
+    {
+      "intent": "Department_info",
+      "examples": [
+        {
+          "text": "Computer science engineering department is there?"
+        },
+        {
+          "text": "CSE"
+        },
+        {
+          "text": "CSE is there?"
+        },
+        {
+          "text": "ECE"
+        },
+        {
+          "text": "ECE is there?"
+        },
+        {
+          "text": "How many departments are there?"
+        },
+        {
+          "text": "list the courses"
+        },
+        {
+          "text": "MBA"
+        },
+        {
+          "text": "mech"
+        },
+        {
+          "text": "Mechanical"
+        },
+        {
+          "text": "Mech is there?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Eligibility_criteria",
+      "examples": [
+        {
+          "text": "Eligibility"
+        },
+        {
+          "text": "eligibility for MBA"
+        },
+        {
+          "text": "tell about eligibility for getting B.Tech Admissions"
+        },
+        {
+          "text": "what is the eligibility criteria to join B.Tech?"
+        }
+      ]
+    },
+    {
+      "intent": "Facilities",
+      "examples": [
+        {
+          "text": "Does the college have a canteen?"
+        },
+        {
+          "text": "Does the college have a library?"
+        },
+        {
+          "text": "Does the college have facility for eating?"
+        },
+        {
+          "text": "Does your college have bus facility?"
+        },
+        {
+          "text": "Do you have a hostel?"
+        },
+        {
+          "text": "Do you have transportation facility?"
+        },
+        {
+          "text": "Do you have transport facility?"
+        },
+        {
+          "text": "How big is your library?"
+        },
+        {
+          "text": "Is there a canteen in your college?"
+        },
+        {
+          "text": "Is there a place to eat?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fees_structure",
+      "examples": [
+        {
+          "text": "fees structure for ECE"
+        },
+        {
+          "text": "fees structure for MBA"
+        },
+        {
+          "text": "fees structure for Mech"
+        },
+        {
+          "text": "what is the fees structure?"
+        },
+        {
+          "text": "what is the fees structure for B.Tech course"
+        },
+        {
+          "text": "What is the fees structure for CSE"
+        }
+      ]
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "glad to meet you"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "talk to you soon"
+        }
+      ]
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good Evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Vanakkam"
+        }
+      ]
+    },
+    {
+      "intent": "hours_info",
+      "examples": [
+        {
+          "text": "timing"
+        },
+        {
+          "text": "what are the hours of operation for your vadapalani campus?"
+        },
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "What are your hours of operation?"
+        },
+        {
+          "text": "what are your working hours?"
+        },
+        {
+          "text": "What time are you open until?"
+        },
+        {
+          "text": "When are you open in the morning?"
+        },
+        {
+          "text": "When do you close in the evening?"
+        },
+        {
+          "text": "Whether saturday and sunday holiday"
+        }
+      ]
+    },
+    {
+      "intent": "location_info",
+      "examples": [
+        {
+          "text": "Give me a list of locations of SRM"
+        },
+        {
+          "text": "List of campuses"
+        },
+        {
+          "text": "list of your locations"
+        },
+        {
+          "text": "locations in Chennai"
+        },
+        {
+          "text": "What are your locations?"
+        },
+        {
+          "text": "what's the address of your Hostel?"
+        },
+        {
+          "text": "What's the address of your Vadapalani campus"
+        },
+        {
+          "text": "Where are you physically located?"
+        },
+        {
+          "text": "Where are your campuses?"
+        },
+        {
+          "text": "Where city campus is located?"
+        },
+        {
+          "text": "Where is your campus located?"
+        },
+        {
+          "text": "where is your Vadapalani campus?"
+        }
+      ]
+    },
+    {
+      "intent": "Name",
+      "examples": [
+        {
+          "text": "I am"
+        },
+        {
+          "text": "My name is"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "specialization_CSE",
+      "examples": [
+        {
+          "text": "AIML"
+        },
+        {
+          "text": "Big data Analytics"
+        },
+        {
+          "text": "CSBS"
+        },
+        {
+          "text": "Specialization in CSE"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "specialization_ECE",
+      "examples": [
+        {
+          "text": "ECE with DataScience"
+        },
+        {
+          "text": "Electronics and computer engineering"
+        },
+        {
+          "text": "Electronics and computers"
+        },
+        {
+          "text": "Electronics with data science"
+        },
+        {
+          "text": "Specialization in ECE"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "specialization_mech",
+      "examples": [
+        {
+          "text": "Mechanical AIML"
+        },
+        {
+          "text": "Mechanical and Automation"
+        },
+        {
+          "text": "Mechanical and Automation engineering"
+        },
+        {
+          "text": "Mechanical with AIML"
+        },
+        {
+          "text": "Specialization in Mech"
+        },
+        {
+          "text": "Specialization in Mechanical"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thanks a lot"
+        },
+        {
+          "text": "thank you"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Admission_Queries",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "admission",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "degree",
+          "synonyms": [
+            "branch",
+            "course",
+            "streams"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Department",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Business Administration",
+          "synonyms": [
+            "Master of business Administration",
+            "MBA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Computer Science and Engineering",
+          "synonyms": [
+            "computer science",
+            "CSE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Electronics and Communication Engineering",
+          "synonyms": [
+            "ECE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mechanical Engineering",
+          "synonyms": [
+            "Mech",
+            "Mechanical"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "facilities",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Canteen",
+          "synonyms": [
+            "Cafe",
+            "Cafeteria",
+            "Eat",
+            "Eating",
+            "Mess"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hostel",
+          "synonyms": [
+            "Accomodation",
+            "Boarding",
+            "Lodging"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Library",
+          "synonyms": [
+            "Reading space"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Transport",
+          "synonyms": [
+            "Bus",
+            "busses",
+            "Commute",
+            "transit",
+            "transportation"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greetings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Afternoon",
+          "synonyms": [
+            "ga",
+            "gud aftrn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good evening",
+          "synonyms": [
+            "ge",
+            "gud evng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "gm",
+            "gud mrng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hi",
+          "synonyms": [
+            "Hello",
+            "Hey",
+            "Hola"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vanakkam",
+          "synonyms": [
+            "Namaskar",
+            "Namaste"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "campus",
+          "synonyms": [
+            "address",
+            "locations"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kattangulathur",
+          "synonyms": [
+            "KTR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ramapuram",
+          "synonyms": [
+            "RMP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vadapalani",
+          "synonyms": [
+            "VDP"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "specialization_CSE",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AIML",
+          "synonyms": [
+            "AI",
+            "Artificial Intelligence",
+            "Artificial Intelligence and Machine Learning",
+            "CSE AIML",
+            "Machine Learning",
+            "ML"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bigdata Analytics",
+          "synonyms": [
+            "Bigdata",
+            "Data Analytics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CSBS",
+          "synonyms": [
+            "Business Systems",
+            "computer science with business systems",
+            "CSE CSBS",
+            "TCS course"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "specialization_ECE",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ECE with Data Science",
+          "synonyms": [
+            "Data Science",
+            "Data Science in ECE",
+            "Data science with ECE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Electronics and Computer Engineering",
+          "synonyms": [
+            "computer in ECE",
+            "Electronics and computers"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "specialization_mech",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mechanical and Automation Engineering",
+          "synonyms": [
+            "Automation",
+            "Automation Engineering",
+            "Industry 4.0"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mechanical with AIML",
+          "synonyms": [
+            "AI",
+            "Artificial Intelligence with Machine Learning in Mechanical",
+            "Mechanical AI",
+            "Mechanical AIML"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can u rephrase your question?\nOr we will be happy to help you with ur queries. \nMail to: admissions.vdp@srmist.edu.in\nContact us on phone/whatsapp : 7358333361"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1594595835510",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "CSE department offers specialization in Artificial Intellgence and Machine Learning, CSBS and Bigdata Analytics. Which specialization are you interested in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1594548111281",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594548111311",
+      "previous_sibling": "handler_5_1594548111311"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1601802714402",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1601802929235",
+      "previous_sibling": "response_10_1601808890780"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1594548548522",
+      "context": {
+        "specialization_ECE": "@specialization_ECE"
+      },
+      "conditions": "@specialization_ECE",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594548548536"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592886873435",
+      "context": {
+        "Dept": "@Department"
+      },
+      "conditions": "@Department",
+      "event_name": "input",
+      "dialog_node": "handler_3_1592886873466"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "We have 4 courses, B.tech CSE, ECE, Mechanical and MBA. Which department info would you like to get?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1592886873435",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1592886873466",
+      "previous_sibling": "handler_3_1592886873466"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1594548111281",
+      "context": {
+        "specialization_CSE": "@specialization_CSE"
+      },
+      "conditions": "@specialization_CSE",
+      "event_name": "input",
+      "dialog_node": "handler_5_1594548111311"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "we are having specialization as Mechanical with AIML and Mechanical and Automation engineering. Please enter which you are interested in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1594548593852",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1594548593880",
+      "previous_sibling": "handler_8_1594548593880"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "We are having specialization in ECE are ECE with Data Science and Electronics and computer engineering. Please enter which you are interested in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1594548548522",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1594548548536",
+      "previous_sibling": "handler_2_1594548548536"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1594548593852",
+      "context": {
+        "specialization_mech": "@specialization_mech"
+      },
+      "conditions": "@specialization_mech",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594548593880"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else."
+              },
+              {
+                "text": "My pleasure."
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with."
+              },
+              {
+                "text": "Its my pleasure."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1592034919714",
+      "conditions": "#thank_you",
+      "dialog_node": "node_1_1592035381217"
+    },
+    {
+      "type": "standard",
+      "title": "Admission query",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We offer B.Tech CSE along with its specialization courses, B.Tech ECE along with its specialization courses and B.Tech Mechanical engineering along with its specialization courses and Business Administration."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Admission_queries && @Admission_Queries",
+      "dialog_node": "node_1_1592913285978",
+      "previous_sibling": "node_4_1601802714402"
+    },
+    {
+      "type": "frame",
+      "title": "specialization in ECE",
+      "parent": "node_6_1594547496903",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#specialization_ECE",
+      "dialog_node": "node_1_1594548517437",
+      "previous_sibling": "node_7_1594547544993"
+    },
+    {
+      "type": "frame",
+      "title": "specialization in Mech",
+      "parent": "node_6_1594547496903",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#specialization_mech",
+      "dialog_node": "node_2_1594548562805",
+      "previous_sibling": "node_1_1594548517437"
+    },
+    {
+      "type": "frame",
+      "title": "Departments",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Department_info",
+      "dialog_node": "node_4_1592041020353",
+      "previous_sibling": "node_6_1594593628983"
+    },
+    {
+      "type": "standard",
+      "title": "Fees Structure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "B. Tech CSE & specialized courses. Counseling Rs. 2.25 lacs\nB. Tech ECE & specialized courses. Counseling Rs. 1.8 lacs\nB. Tech Mechanical Rs. 1.25 lacs & specialized courses Rs. 1.8 lacs.\nMBA Rs. 2 lacs\nPlus Rs. Ten thousand admission fees, which is non refundable"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fees_structure",
+      "dialog_node": "node_4_1594593583435",
+      "previous_sibling": "node_1_1592913285978"
+    },
+    {
+      "type": "standard",
+      "title": "contact us",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We will be happy to help you with you queries. \nMail to: admissions.vdp@srmist.edu.in\nContact us on phone/whatsapp : 7358333361\nWebsite: https://www.srmist.edu.in/vadapalani/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#contact_us",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1594595835510",
+      "previous_sibling": "node_8_1592034919714"
+    },
+    {
+      "type": "standard",
+      "title": "General_info",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Facilities && @facilities",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1601802714402",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1601725440652"
+    },
+    {
+      "type": "frame",
+      "title": "Location information",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#location_info || @location",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1592034907984",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1592038325333",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Good bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice talking to you today."
+              },
+              {
+                "text": "Have a nice day."
+              },
+              {
+                "text": "Glad to meet you, Goodbye"
+              },
+              {
+                "text": "The pleasure was all mine, have a nice day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1592034919714",
+      "conditions": "#goodbyes",
+      "dialog_node": "node_5_1592035498720",
+      "previous_sibling": "node_1_1592035381217"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#greetings || @greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1601725440652",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "title": "specialization",
+      "conditions": "",
+      "dialog_node": "node_6_1594547496903",
+      "previous_sibling": "node_4_1592041020353"
+    },
+    {
+      "type": "standard",
+      "title": "Eligibility",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "B. Tech CSE & specialized courses. Eligibility 50% in Physics, Chemistry, Maths (PCM).\nB. Tech ECE & specialized courses. Eligibility 50% Physics, Chemistry, Maths (PCM).\nB. Tech Mechanical & specialized courses Eligibility 50% in Physics, Chemistry, Maths (PCM).\nMBA Eligibility UG 60%"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Eligibility_criteria",
+      "dialog_node": "node_6_1594593628983",
+      "previous_sibling": "node_4_1594593583435"
+    },
+    {
+      "type": "standard",
+      "title": "Hours of Operation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our campus working hours is 10AM to 4 PM for admissions from Monday to Saturday"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hours_info",
+      "dialog_node": "node_7_1592038325333",
+      "previous_sibling": "node_6_1594547496903"
+    },
+    {
+      "type": "frame",
+      "title": "specialization in CSE",
+      "parent": "node_6_1594547496903",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#specialization_CSE",
+      "dialog_node": "node_7_1594547544993"
+    },
+    {
+      "type": "folder",
+      "title": "Chit Chat",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1592034919714",
+      "previous_sibling": "node_5_1592034907984"
+    },
+    {
+      "type": "standard",
+      "title": "Collect Name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice to meet you, $name. How can I help you? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601725440652",
+      "context": {
+        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1592891182058"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "C block No.1, Jawaharlal Nehru Rd, Vadapalani, Chennai, Tamil Nadu 600026"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1592034907984",
+      "conditions": "@location:Vadapalani",
+      "dialog_node": "response_10_1592890263275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bharathi Salai, Ramapuram, Chennai, Tamil Nadu 600089"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1592034907984",
+      "conditions": "@location:Ramapuram",
+      "dialog_node": "response_10_1592890336153",
+      "previous_sibling": "response_10_1592890263275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CSE Computer Science is a rapidly evolving discipline today. And at SRM, we go to great lengths to ensure that our faculty and students can devote themselves to take maximal advantage of modern computer science and engineering - to solve a wide range of complex scientific, technological and social problems. Our specialized course under CSE besides CSE are CSBS, AIML and Big data analytics <a href=\"https://www.srmist.edu.in/vadapalani/computer-science-engineering/about\">Our Computer Science and Engineering page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592041020353",
+      "conditions": "$Dept==\"Computer Science and Engineering\"",
+      "dialog_node": "response_10_1592891938422",
+      "previous_sibling": "response_9_1592891905161"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Electronics and Communication Engineering (ECE) is a swiftly advancing field, with new ideas emerging every other second. From mobile phones to fiber optics and remote sensing, there are exciting avenues to explore and create. The ECE department at SRM Institute of Science and Technology (formerly known as SRM University) prepares students for careers in this constantly evolving discipline.  Our specialized course under ECE besides ECE are ECE with DataScience and Electronics and computer engineering. <a href=\"https://www.srmist.edu.in/vadapalani/about-department\">Our Electronics and Communication engineering page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592041020353",
+      "conditions": "$Dept==\"Electronics and Communication Engineering\"",
+      "dialog_node": "response_10_1592892060151",
+      "previous_sibling": "response_10_1592891938422"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This course is specialization in Mechanical Engineering.Mechanical Engineering core subjects along with Artificial Intelligence and Machine Learning specialized subjects are included in this course"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594548562805",
+      "conditions": "$specialization_mech==\"Mechanical with AIML\"",
+      "dialog_node": "response_10_1594548760683",
+      "previous_sibling": "response_1_1594548592708"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This course is specialization in ECE. Electronics and Communications core subjects along with core computer science  specialized subjects are included in this course."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594548517437",
+      "conditions": "$specialization_ECE==\"Electronics and Computer Engineering\"",
+      "dialog_node": "response_10_1594548976788",
+      "previous_sibling": "response_5_1594548547469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "View of the Library",
+            "source": "https://www.srmist.edu.in/sites/vadapalani/themes/vadapalani/home_assets/img/banner1.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1601802714402",
+      "conditions": "@facilities:Library",
+      "dialog_node": "response_10_1601803436099",
+      "previous_sibling": "response_7_1601803348137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The bus facility is available to the students. The details of the same can be obtained from Transport Incharge."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1601802714402",
+      "conditions": "@facilities:Transport",
+      "dialog_node": "response_10_1601808890780",
+      "previous_sibling": "response_10_1601803436099"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This course is specialization in Mechanical Engineering. Mechanical Engineering core subjects along with Industry 4.0 specialized subjects are included in this course"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1594548562805",
+      "conditions": "$specialization_mech==\"Mechanical and Automation Engineering\"",
+      "dialog_node": "response_1_1594548592708",
+      "previous_sibling": "slot_7_1594548593852"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi!!! May I know your name please??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601725440652",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1601725912932",
+      "previous_sibling": "response_2_1601725898761"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This course is specialization in CSE. Computer Science Core subjects along with Big data and data analytics specialized subjects are included in this course"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594547544993",
+      "conditions": "$specialization_CSE==\"Bigdata Analytics\"",
+      "dialog_node": "response_2_1594549349631",
+      "previous_sibling": "response_9_1594549248720"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning!!! May I know your name please??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601725440652",
+      "conditions": "@greetings:(Good Morning)",
+      "dialog_node": "response_2_1601725817321",
+      "previous_sibling": "node_8_1592891182058"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vanakkam!!! May I know your name please??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601725440652",
+      "conditions": "@greetings:Vanakkam",
+      "dialog_node": "response_2_1601725898761",
+      "previous_sibling": "response_6_1601725877139"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " We have three campuses in Chennai, the main campus is located at Kattankulathur, City campus at Vadapalani and Ramapuram Campus. Which Campus information do you want?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1592034907984",
+      "conditions": "@location:campus",
+      "dialog_node": "response_2_1601810563439",
+      "previous_sibling": "response_3_1592890389295"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Potheri, SRM Nagar, Kattankulathur, Tamil Nadu 603203"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1592034907984",
+      "conditions": "@location:Kattangulathur",
+      "dialog_node": "response_3_1592890389295",
+      "previous_sibling": "response_10_1592890336153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This course is specialization in CSE. Computer Science Core subjects along with Artificial intelligence and machine learning specialized subjects are included in this course."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594547544993",
+      "conditions": "$specialization_CSE==\"AIML\"",
+      "dialog_node": "response_5_1594548109932",
+      "previous_sibling": "slot_9_1594548111281"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This course is specialization in ECE. Electronics and Communications core subjects along with data science specialized subjects are included in this course."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594548517437",
+      "conditions": "$specialization_ECE==\"ECE with Data Science\"",
+      "dialog_node": "response_5_1594548547469",
+      "previous_sibling": "slot_9_1594548548522"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Department of Mechanical Engineering, SRM IST Vadapalani Campus is offering the following courses with specializations to cater the requirements of “Industry 4.0”  B.Tech - Mechanical Engineering  B.Tech - Mechanical & Automation Engineering  B.Tech Mechanical Engineering specialized in Artificial Intelligence and Machine Learning <a href=\"https://www.srmist.edu.in/vadapalani/mech-dept/about-department\">Our Mechanical Engineering page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592041020353",
+      "conditions": "$Dept==\"Mechanical Engineering\"",
+      "dialog_node": "response_6_1592892109386",
+      "previous_sibling": "response_10_1592892060151"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good evening!!! May I know your name please??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601725440652",
+      "conditions": "@greetings:(Good evening)",
+      "dialog_node": "response_6_1601725877139",
+      "previous_sibling": "response_7_1601725858245"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We do not have a hostel on our campus however we can provide accommodation as per availability at our Ramapuram Campus"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1601802714402",
+      "conditions": "@facilities:Hostel",
+      "dialog_node": "response_6_1601803266168"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Afternoon!!! May I know your name please??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601725440652",
+      "conditions": "@greetings:(Good Afternoon)",
+      "dialog_node": "response_7_1601725858245",
+      "previous_sibling": "response_2_1601725817321"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have a well equipped full- fledged canteen operating from 7:00 am till 7:00 pm which serves South Indian, North Indian and Chinese cuisine along with tea, coffee and a Live Juice Counter"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1601802714402",
+      "conditions": "@facilities:Canteen",
+      "dialog_node": "response_7_1601803348137",
+      "previous_sibling": "response_6_1601803266168"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SRM MBA is a two year, semester based (4 semesters) program with industry internships resulting in a structured project at the end of each year. Students are required to complete a total of 38 courses, inclusive of elective courses, chosen from among the list of elective specializations offered by the school. The syllabus is updated constantly based on industry requirements.  <a href=\"https://www.srmist.edu.in/vadapalani/content/mba-0\">our MBA page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592041020353",
+      "conditions": "$Dept==\"Business Administration\"",
+      "dialog_node": "response_9_1592891905161"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This course is specialization in CSE. This course is framed in collaboration with TCS and business oriented subjects are included in this course."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594547544993",
+      "conditions": "$specialization_CSE==\"CSBS\"",
+      "dialog_node": "response_9_1594549248720",
+      "previous_sibling": "response_5_1594548109932"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1592041020353",
+      "variable": "$Dept",
+      "dialog_node": "slot_1_1592886873435",
+      "previous_sibling": "response_6_1592892109386"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1594548562805",
+      "variable": "$specialization_mech",
+      "dialog_node": "slot_7_1594548593852"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1594547544993",
+      "variable": "$specialization_CSE",
+      "conditions": "true",
+      "dialog_node": "slot_9_1594548111281"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1594548517437",
+      "variable": "$specialization_ECE",
+      "dialog_node": "slot_9_1594548548522"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "title": "Hi, Welcome to SRM Institute of Science and Technology, Vadapalani campus, I am Ishika.",
+            "source": "https://www.srmist.edu.in/sites/vadapalani/files/images/building-details.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "returns",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "SRMIST_Info",
+  "language": "en",
+  "description": ""
+}
